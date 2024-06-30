@@ -1,0 +1,1271 @@
+Unity Editor version:    2022.3.28f1 (6bae5ce6b222)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.4.1 (Build 23E224)
+Darwin version:          23.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/rodeorack/Documents/GitHub/2048Practice
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+49221
+Successfully changed project path to: /Users/rodeorack/Documents/GitHub/2048Practice
+/Users/rodeorack/Documents/GitHub/2048Practice
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704712769792] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 2203304480 [EditorId] 2203304480 [Version] 1048832 [Id] OSXEditor(0,Rodeos-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704712769792] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 2203304480 [EditorId] 2203304480 [Version] 1048832 [Id] OSXEditor(0,Rodeos-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 44.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.28f1 (6bae5ce6b222)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rodeorack/Documents/GitHub/2048Practice/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 555X (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 555X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.28f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.28f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.009537 seconds.
+- Loaded All Assemblies, in  0.861 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Multiple ADB server instances found, the following ADB server instance have been terminated due to being run from another SDK. Process paths: 
+/Applications/Unity/Hub/Editor/2022.3.33f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:ScanSync ()
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+UnityEditor.Android.TargetExtension:OnLoad ()
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules () (at /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs:147)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs Line: 147)
+
+Android Extension - Scanning For ADB Devices 456 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.172 seconds
+Domain Reload Profiling: 2033ms
+	BeginReloadAssembly (329ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (357ms)
+		LoadAssemblies (330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (347ms)
+			TypeCache.Refresh (343ms)
+				TypeCache.ScanAssembly (311ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1172ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1051ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (811ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.005 seconds
+Refreshing native plugins compatible for Editor in 7.52 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.848 seconds
+Domain Reload Profiling: 1852ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (744ms)
+		LoadAssemblies (521ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (309ms)
+			TypeCache.Refresh (264ms)
+				TypeCache.ScanAssembly (231ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (849ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (614ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (445ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4291 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (59.9 KB). Loaded Objects now: 4747.
+Memory consumption went from 161.6 MB to 161.5 MB.
+Total: 5.451831 ms (FindLiveObjects: 0.453042 ms CreateObjectMapping: 0.304526 ms MarkObjects: 3.907796 ms  DeleteObjects: 0.676272 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AltEditorConfiguration.cs: 45d3720f60fe6b0f70eeee12c5e30d34 -> 7d69925f1ae41facd692f79510f186c5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EditorLogManager.cs: fe899566a29eb7240690fbeefb18463e -> fc0f2cd5ba2919cb7e45da90765d064c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AltTestRunner.cs: 045b2eca1162b8b4b70e7d185e1353da -> c77efe66b59f453f6ff779e3ef39e0c5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MyFirstTest.cs: 362e6a9e29360fde3ab2267e0f8d32ea -> e7d0f126d01581445922d0a360c9fac5
+  custom:scripting/monoscript/fileName/SceneManagerScript.cs: a5593c66f14542b5c627a17f5daa7c08 -> 8810cb43ae99cf7259aace7dcdc5391a
+  custom:scripting/monoscript/fileName/AltTesterEditorWindow.cs: c3833b345e75cae7aab7f7eeaab52265 -> fc9d31e143865378f6aebef3f180f222
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/TileBoardEditModeTests.cs: f35453614007f25a9704d5f3b68da91d -> 
+  custom:scripting/monoscript/fileName/AltTestRunListener.cs: de9c43dc1f5ef3b22ebbf177947c7749 -> 84f148e3dbb5a64393c9ddbd4ff7674f
+  custom:scripting/monoscript/fileName/TileBoardPlayModeTests.cs: 21b9ab3760099c3d30c8c0d9b16a63c0 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyScenes.cs: 98c869727e62481ffb34a15654950303 -> fb840480b84431185d55e9d13ca9122f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyTest.cs: 305057e55d2e81d91934139eaae294f4 -> acefaf17f0f6f542978f12e6d3e48855
+  custom:scripting/monoscript/fileName/AltBuilder.cs: 710d040020e242768316126778bfbace -> 3443f23595da078752cc4b1b05829454
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 4747.
+Memory consumption went from 88.0 MB to 88.0 MB.
+Total: 219.656500 ms (FindLiveObjects: 5.010441 ms CreateObjectMapping: 0.394066 ms MarkObjects: 213.745688 ms  DeleteObjects: 0.151411 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AltEditorConfiguration.cs: 45d3720f60fe6b0f70eeee12c5e30d34 -> 7d69925f1ae41facd692f79510f186c5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EditorLogManager.cs: fe899566a29eb7240690fbeefb18463e -> fc0f2cd5ba2919cb7e45da90765d064c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AltTestRunner.cs: 045b2eca1162b8b4b70e7d185e1353da -> c77efe66b59f453f6ff779e3ef39e0c5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MyFirstTest.cs: 362e6a9e29360fde3ab2267e0f8d32ea -> e7d0f126d01581445922d0a360c9fac5
+  custom:scripting/monoscript/fileName/SceneManagerScript.cs: a5593c66f14542b5c627a17f5daa7c08 -> 8810cb43ae99cf7259aace7dcdc5391a
+  custom:scripting/monoscript/fileName/AltTesterEditorWindow.cs: c3833b345e75cae7aab7f7eeaab52265 -> fc9d31e143865378f6aebef3f180f222
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/TileBoardEditModeTests.cs: f35453614007f25a9704d5f3b68da91d -> 
+  custom:scripting/monoscript/fileName/AltTestRunListener.cs: de9c43dc1f5ef3b22ebbf177947c7749 -> 84f148e3dbb5a64393c9ddbd4ff7674f
+  custom:scripting/monoscript/fileName/TileBoardPlayModeTests.cs: 21b9ab3760099c3d30c8c0d9b16a63c0 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyScenes.cs: 98c869727e62481ffb34a15654950303 -> fb840480b84431185d55e9d13ca9122f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyTest.cs: 305057e55d2e81d91934139eaae294f4 -> acefaf17f0f6f542978f12e6d3e48855
+  custom:scripting/monoscript/fileName/AltBuilder.cs: 710d040020e242768316126778bfbace -> 3443f23595da078752cc4b1b05829454
+========================================================================
+Received Import Request.
+  Time since last request: 169546.283151 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(183b31c33652645c9a7d622950bb749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(183b31c33652645c9a7d622950bb749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadb231d227240a9763c36ca88309c33') in 0.200354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.351 seconds
+Refreshing native plugins compatible for Editor in 5.61 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.114 seconds
+Domain Reload Profiling: 7465ms
+	BeginReloadAssembly (1872ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (194ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (8ms)
+		CreateAndSetChildDomain (901ms)
+	RebuildCommonClasses (94ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (1214ms)
+		LoadAssemblies (1694ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (63ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (55ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (4116ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1454ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (349ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (831ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 8.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4264 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (40.1 KB). Loaded Objects now: 4752.
+Memory consumption went from 158.4 MB to 158.4 MB.
+Total: 13.769465 ms (FindLiveObjects: 0.441408 ms CreateObjectMapping: 0.497968 ms MarkObjects: 12.735327 ms  DeleteObjects: 0.092293 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AltEditorConfiguration.cs: 45d3720f60fe6b0f70eeee12c5e30d34 -> 7d69925f1ae41facd692f79510f186c5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EditorLogManager.cs: fe899566a29eb7240690fbeefb18463e -> fc0f2cd5ba2919cb7e45da90765d064c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AltTestRunner.cs: 045b2eca1162b8b4b70e7d185e1353da -> c77efe66b59f453f6ff779e3ef39e0c5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MyFirstTest.cs: 362e6a9e29360fde3ab2267e0f8d32ea -> e7d0f126d01581445922d0a360c9fac5
+  custom:scripting/monoscript/fileName/SceneManagerScript.cs: cbca3b3a4b1ecd985d8c642a97cbad16 -> 457448a8fb71d1358e358b0bbf1dfb73
+  custom:scripting/monoscript/fileName/AltTesterEditorWindow.cs: c3833b345e75cae7aab7f7eeaab52265 -> fc9d31e143865378f6aebef3f180f222
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/TileBoardEditModeTests.cs: f35453614007f25a9704d5f3b68da91d -> 
+  custom:scripting/monoscript/fileName/AltTestRunListener.cs: de9c43dc1f5ef3b22ebbf177947c7749 -> 84f148e3dbb5a64393c9ddbd4ff7674f
+  custom:scripting/monoscript/fileName/TileBoardPlayModeTests.cs: 21b9ab3760099c3d30c8c0d9b16a63c0 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyScenes.cs: 98c869727e62481ffb34a15654950303 -> fb840480b84431185d55e9d13ca9122f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyTest.cs: 305057e55d2e81d91934139eaae294f4 -> acefaf17f0f6f542978f12e6d3e48855
+  custom:scripting/monoscript/fileName/AltBuilder.cs: 710d040020e242768316126778bfbace -> 3443f23595da078752cc4b1b05829454
+========================================================================
+Received Import Request.
+  Time since last request: 116.056291 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(5743828b598f44f29b898380c184a608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(5743828b598f44f29b898380c184a608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef74ceaa1b0432d8fd7c3d3e141d7140') in 0.006600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.330 seconds
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.039 seconds
+Domain Reload Profiling: 3371ms
+	BeginReloadAssembly (556ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (60ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (210ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (666ms)
+		LoadAssemblies (827ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (68ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2039ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (700ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (150ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (424ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4264 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (41.1 KB). Loaded Objects now: 4756.
+Memory consumption went from 160.5 MB to 160.5 MB.
+Total: 5.373444 ms (FindLiveObjects: 0.624877 ms CreateObjectMapping: 0.266496 ms MarkObjects: 4.058942 ms  DeleteObjects: 0.068581 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AltEditorConfiguration.cs: 45d3720f60fe6b0f70eeee12c5e30d34 -> 7d69925f1ae41facd692f79510f186c5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EditorLogManager.cs: fe899566a29eb7240690fbeefb18463e -> fc0f2cd5ba2919cb7e45da90765d064c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AltTestRunner.cs: 045b2eca1162b8b4b70e7d185e1353da -> c77efe66b59f453f6ff779e3ef39e0c5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MyFirstTest.cs: 362e6a9e29360fde3ab2267e0f8d32ea -> e7d0f126d01581445922d0a360c9fac5
+  custom:scripting/monoscript/fileName/SceneManagerScript.cs: a5593c66f14542b5c627a17f5daa7c08 -> 8810cb43ae99cf7259aace7dcdc5391a
+  custom:scripting/monoscript/fileName/AltTesterEditorWindow.cs: c3833b345e75cae7aab7f7eeaab52265 -> fc9d31e143865378f6aebef3f180f222
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/TileBoardEditModeTests.cs: f35453614007f25a9704d5f3b68da91d -> 
+  custom:scripting/monoscript/fileName/AltTestRunListener.cs: de9c43dc1f5ef3b22ebbf177947c7749 -> 84f148e3dbb5a64393c9ddbd4ff7674f
+  custom:scripting/monoscript/fileName/TileBoardPlayModeTests.cs: 21b9ab3760099c3d30c8c0d9b16a63c0 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyScenes.cs: 98c869727e62481ffb34a15654950303 -> fb840480b84431185d55e9d13ca9122f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyTest.cs: 305057e55d2e81d91934139eaae294f4 -> acefaf17f0f6f542978f12e6d3e48855
+  custom:scripting/monoscript/fileName/AltBuilder.cs: 710d040020e242768316126778bfbace -> 3443f23595da078752cc4b1b05829454
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.714 seconds
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.884 seconds
+Domain Reload Profiling: 1598ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (421ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (109ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (41.1 KB). Loaded Objects now: 4760.
+Memory consumption went from 165.7 MB to 165.6 MB.
+Total: 4.298077 ms (FindLiveObjects: 0.322039 ms CreateObjectMapping: 0.310138 ms MarkObjects: 3.600698 ms  DeleteObjects: 0.064317 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AltEditorConfiguration.cs: 45d3720f60fe6b0f70eeee12c5e30d34 -> 7d69925f1ae41facd692f79510f186c5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EditorLogManager.cs: fe899566a29eb7240690fbeefb18463e -> fc0f2cd5ba2919cb7e45da90765d064c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AltTestRunner.cs: 045b2eca1162b8b4b70e7d185e1353da -> c77efe66b59f453f6ff779e3ef39e0c5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MyFirstTest.cs: 362e6a9e29360fde3ab2267e0f8d32ea -> e7d0f126d01581445922d0a360c9fac5
+  custom:scripting/monoscript/fileName/SceneManagerScript.cs: a5593c66f14542b5c627a17f5daa7c08 -> 8810cb43ae99cf7259aace7dcdc5391a
+  custom:scripting/monoscript/fileName/AltTesterEditorWindow.cs: c3833b345e75cae7aab7f7eeaab52265 -> fc9d31e143865378f6aebef3f180f222
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/TileBoardEditModeTests.cs: f35453614007f25a9704d5f3b68da91d -> 
+  custom:scripting/monoscript/fileName/AltTestRunListener.cs: de9c43dc1f5ef3b22ebbf177947c7749 -> 84f148e3dbb5a64393c9ddbd4ff7674f
+  custom:scripting/monoscript/fileName/TileBoardPlayModeTests.cs: 21b9ab3760099c3d30c8c0d9b16a63c0 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyScenes.cs: 98c869727e62481ffb34a15654950303 -> fb840480b84431185d55e9d13ca9122f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyTest.cs: 305057e55d2e81d91934139eaae294f4 -> acefaf17f0f6f542978f12e6d3e48855
+  custom:scripting/monoscript/fileName/AltBuilder.cs: 710d040020e242768316126778bfbace -> 3443f23595da078752cc4b1b05829454
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.629 seconds
+Refreshing native plugins compatible for Editor in 4.31 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.186 seconds
+Domain Reload Profiling: 1815ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (378ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1186ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (40.1 KB). Loaded Objects now: 4764.
+Memory consumption went from 170.5 MB to 170.5 MB.
+Total: 4.814023 ms (FindLiveObjects: 0.342245 ms CreateObjectMapping: 0.338077 ms MarkObjects: 4.062428 ms  DeleteObjects: 0.070245 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AltEditorConfiguration.cs: 45d3720f60fe6b0f70eeee12c5e30d34 -> 7d69925f1ae41facd692f79510f186c5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EditorLogManager.cs: fe899566a29eb7240690fbeefb18463e -> fc0f2cd5ba2919cb7e45da90765d064c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AltTestRunner.cs: 045b2eca1162b8b4b70e7d185e1353da -> c77efe66b59f453f6ff779e3ef39e0c5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MyFirstTest.cs: 362e6a9e29360fde3ab2267e0f8d32ea -> e7d0f126d01581445922d0a360c9fac5
+  custom:scripting/monoscript/fileName/SceneManagerScript.cs: a5593c66f14542b5c627a17f5daa7c08 -> 8810cb43ae99cf7259aace7dcdc5391a
+  custom:scripting/monoscript/fileName/AltTesterEditorWindow.cs: c3833b345e75cae7aab7f7eeaab52265 -> fc9d31e143865378f6aebef3f180f222
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/TileBoardEditModeTests.cs: f35453614007f25a9704d5f3b68da91d -> 
+  custom:scripting/monoscript/fileName/AltTestRunListener.cs: de9c43dc1f5ef3b22ebbf177947c7749 -> 84f148e3dbb5a64393c9ddbd4ff7674f
+  custom:scripting/monoscript/fileName/TileBoardPlayModeTests.cs: 21b9ab3760099c3d30c8c0d9b16a63c0 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyScenes.cs: 98c869727e62481ffb34a15654950303 -> fb840480b84431185d55e9d13ca9122f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyTest.cs: 305057e55d2e81d91934139eaae294f4 -> acefaf17f0f6f542978f12e6d3e48855
+  custom:scripting/monoscript/fileName/AltBuilder.cs: 710d040020e242768316126778bfbace -> 3443f23595da078752cc4b1b05829454
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.910 seconds
+Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.707 seconds
+Domain Reload Profiling: 2618ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (579ms)
+		LoadAssemblies (511ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (125ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1708ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (486ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (40.1 KB). Loaded Objects now: 4768.
+Memory consumption went from 175.4 MB to 175.3 MB.
+Total: 4.555863 ms (FindLiveObjects: 0.339013 ms CreateObjectMapping: 0.408504 ms MarkObjects: 3.692844 ms  DeleteObjects: 0.113569 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AltEditorConfiguration.cs: 45d3720f60fe6b0f70eeee12c5e30d34 -> 7d69925f1ae41facd692f79510f186c5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EditorLogManager.cs: fe899566a29eb7240690fbeefb18463e -> fc0f2cd5ba2919cb7e45da90765d064c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AltTestRunner.cs: 045b2eca1162b8b4b70e7d185e1353da -> c77efe66b59f453f6ff779e3ef39e0c5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MyFirstTest.cs: 362e6a9e29360fde3ab2267e0f8d32ea -> e7d0f126d01581445922d0a360c9fac5
+  custom:scripting/monoscript/fileName/SceneManagerScript.cs: a5593c66f14542b5c627a17f5daa7c08 -> 8810cb43ae99cf7259aace7dcdc5391a
+  custom:scripting/monoscript/fileName/AltTesterEditorWindow.cs: c3833b345e75cae7aab7f7eeaab52265 -> fc9d31e143865378f6aebef3f180f222
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/TileBoardEditModeTests.cs: f35453614007f25a9704d5f3b68da91d -> 
+  custom:scripting/monoscript/fileName/AltTestRunListener.cs: de9c43dc1f5ef3b22ebbf177947c7749 -> 84f148e3dbb5a64393c9ddbd4ff7674f
+  custom:scripting/monoscript/fileName/TileBoardPlayModeTests.cs: 21b9ab3760099c3d30c8c0d9b16a63c0 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyScenes.cs: 98c869727e62481ffb34a15654950303 -> fb840480b84431185d55e9d13ca9122f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyTest.cs: 305057e55d2e81d91934139eaae294f4 -> acefaf17f0f6f542978f12e6d3e48855
+  custom:scripting/monoscript/fileName/AltBuilder.cs: 710d040020e242768316126778bfbace -> 3443f23595da078752cc4b1b05829454
+========================================================================
+Received Import Request.
+  Time since last request: 12461.455427 seconds.
+  path: Assets/Sprites/Tile.png
+  artifactKey: Guid(aa8979b72a5ca4a34aa3935017b47d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile.png using Guid(aa8979b72a5ca4a34aa3935017b47d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819c84340d309ac66c9850774d816266') in 0.333250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.095842 seconds.
+  path: Assets/Scripts/TileRow.cs
+  artifactKey: Guid(da42f37e191dc49e8a65bc908976c0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TileRow.cs using Guid(da42f37e191dc49e8a65bc908976c0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16680280691cb264cd1e666232c04fef') in 0.001301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.728466 seconds.
+  path: Assets/Scripts/TileState.cs
+  artifactKey: Guid(cd7dc9f7af9694bcd8c7e118e680e881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TileState.cs using Guid(cd7dc9f7af9694bcd8c7e118e680e881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6958147d03b83816dab0449e6e4d895') in 0.000487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1436.607691 seconds.
+  path: Assets/Tests/PlayMode/TileBoardPlayModeTests.cs
+  artifactKey: Guid(abd0ea5b3a7f94934baf4707c025403d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tests/PlayMode/TileBoardPlayModeTests.cs using Guid(abd0ea5b3a7f94934baf4707c025403d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100454850c6854c0681de7046fa66dd2') in 0.061977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.001 seconds
+Refreshing native plugins compatible for Editor in 3.80 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.955 seconds
+Domain Reload Profiling: 2958ms
+	BeginReloadAssembly (399ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (177ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (506ms)
+		LoadAssemblies (591ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (62ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1956ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (606ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4264 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (40.0 KB). Loaded Objects now: 4777.
+Memory consumption went from 180.5 MB to 180.5 MB.
+Total: 5.996588 ms (FindLiveObjects: 0.365502 ms CreateObjectMapping: 0.382730 ms MarkObjects: 5.146644 ms  DeleteObjects: 0.100278 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AltEditorConfiguration.cs: 45d3720f60fe6b0f70eeee12c5e30d34 -> 7d69925f1ae41facd692f79510f186c5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EditorLogManager.cs: fe899566a29eb7240690fbeefb18463e -> fc0f2cd5ba2919cb7e45da90765d064c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AltTestRunner.cs: 045b2eca1162b8b4b70e7d185e1353da -> c77efe66b59f453f6ff779e3ef39e0c5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MyFirstTest.cs: 362e6a9e29360fde3ab2267e0f8d32ea -> e7d0f126d01581445922d0a360c9fac5
+  custom:scripting/monoscript/fileName/SceneManagerScript.cs: a5593c66f14542b5c627a17f5daa7c08 -> 8810cb43ae99cf7259aace7dcdc5391a
+  custom:scripting/monoscript/fileName/AltTesterEditorWindow.cs: c3833b345e75cae7aab7f7eeaab52265 -> fc9d31e143865378f6aebef3f180f222
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/TileBoardEditModeTests.cs: f35453614007f25a9704d5f3b68da91d -> 
+  custom:scripting/monoscript/fileName/AltTestRunListener.cs: de9c43dc1f5ef3b22ebbf177947c7749 -> 84f148e3dbb5a64393c9ddbd4ff7674f
+  custom:scripting/monoscript/fileName/TileBoardPlayModeTests.cs: 21b9ab3760099c3d30c8c0d9b16a63c0 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyScenes.cs: 98c869727e62481ffb34a15654950303 -> fb840480b84431185d55e9d13ca9122f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyTest.cs: 305057e55d2e81d91934139eaae294f4 -> acefaf17f0f6f542978f12e6d3e48855
+  custom:scripting/monoscript/fileName/AltBuilder.cs: 710d040020e242768316126778bfbace -> 3443f23595da078752cc4b1b05829454
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.676 seconds
+Refreshing native plugins compatible for Editor in 5.61 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.128 seconds
+Domain Reload Profiling: 1804ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (388ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (55ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (7ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1129ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (386ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (40.1 KB). Loaded Objects now: 4781.
+Memory consumption went from 185.6 MB to 185.6 MB.
+Total: 5.707801 ms (FindLiveObjects: 0.523163 ms CreateObjectMapping: 0.595052 ms MarkObjects: 4.513098 ms  DeleteObjects: 0.075220 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AltEditorConfiguration.cs: 45d3720f60fe6b0f70eeee12c5e30d34 -> 7d69925f1ae41facd692f79510f186c5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EditorLogManager.cs: fe899566a29eb7240690fbeefb18463e -> fc0f2cd5ba2919cb7e45da90765d064c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AltTestRunner.cs: 045b2eca1162b8b4b70e7d185e1353da -> c77efe66b59f453f6ff779e3ef39e0c5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MyFirstTest.cs: 362e6a9e29360fde3ab2267e0f8d32ea -> e7d0f126d01581445922d0a360c9fac5
+  custom:scripting/monoscript/fileName/SceneManagerScript.cs: a5593c66f14542b5c627a17f5daa7c08 -> 8810cb43ae99cf7259aace7dcdc5391a
+  custom:scripting/monoscript/fileName/AltTesterEditorWindow.cs: c3833b345e75cae7aab7f7eeaab52265 -> fc9d31e143865378f6aebef3f180f222
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/TileBoardEditModeTests.cs: f35453614007f25a9704d5f3b68da91d -> 
+  custom:scripting/monoscript/fileName/AltTestRunListener.cs: de9c43dc1f5ef3b22ebbf177947c7749 -> 84f148e3dbb5a64393c9ddbd4ff7674f
+  custom:scripting/monoscript/fileName/TileBoardPlayModeTests.cs: 21b9ab3760099c3d30c8c0d9b16a63c0 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyScenes.cs: 98c869727e62481ffb34a15654950303 -> fb840480b84431185d55e9d13ca9122f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyTest.cs: 305057e55d2e81d91934139eaae294f4 -> acefaf17f0f6f542978f12e6d3e48855
+  custom:scripting/monoscript/fileName/AltBuilder.cs: 710d040020e242768316126778bfbace -> 3443f23595da078752cc4b1b05829454
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.604 seconds
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.955 seconds
+Domain Reload Profiling: 1560ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (360ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (37ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (956ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (492ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (346ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (41.1 KB). Loaded Objects now: 4785.
+Memory consumption went from 190.5 MB to 190.4 MB.
+Total: 4.250394 ms (FindLiveObjects: 0.317581 ms CreateObjectMapping: 0.246380 ms MarkObjects: 3.618334 ms  DeleteObjects: 0.067233 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AltEditorConfiguration.cs: 45d3720f60fe6b0f70eeee12c5e30d34 -> 7d69925f1ae41facd692f79510f186c5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EditorLogManager.cs: fe899566a29eb7240690fbeefb18463e -> fc0f2cd5ba2919cb7e45da90765d064c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AltTestRunner.cs: 045b2eca1162b8b4b70e7d185e1353da -> c77efe66b59f453f6ff779e3ef39e0c5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MyFirstTest.cs: 362e6a9e29360fde3ab2267e0f8d32ea -> e7d0f126d01581445922d0a360c9fac5
+  custom:scripting/monoscript/fileName/SceneManagerScript.cs: a5593c66f14542b5c627a17f5daa7c08 -> 8810cb43ae99cf7259aace7dcdc5391a
+  custom:scripting/monoscript/fileName/AltTesterEditorWindow.cs: c3833b345e75cae7aab7f7eeaab52265 -> fc9d31e143865378f6aebef3f180f222
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/TileBoardEditModeTests.cs: f35453614007f25a9704d5f3b68da91d -> 
+  custom:scripting/monoscript/fileName/AltTestRunListener.cs: de9c43dc1f5ef3b22ebbf177947c7749 -> 84f148e3dbb5a64393c9ddbd4ff7674f
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyScenes.cs: 98c869727e62481ffb34a15654950303 -> fb840480b84431185d55e9d13ca9122f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyTest.cs: 305057e55d2e81d91934139eaae294f4 -> acefaf17f0f6f542978f12e6d3e48855
+  custom:scripting/monoscript/fileName/AltBuilder.cs: 710d040020e242768316126778bfbace -> 3443f23595da078752cc4b1b05829454
+========================================================================
+Received Import Request.
+  Time since last request: 421.660296 seconds.
+  path: Assets/Tests/PlayMode/TileBoardPlayModeTests.cs
+  artifactKey: Guid(abd0ea5b3a7f94934baf4707c025403d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tests/PlayMode/TileBoardPlayModeTests.cs using Guid(abd0ea5b3a7f94934baf4707c025403d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a508fb4439b57177b116c1e573f50a7d') in 0.001987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.653 seconds
+Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.672 seconds
+Domain Reload Profiling: 2325ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (335ms)
+		LoadAssemblies (407ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4264 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (40.1 KB). Loaded Objects now: 4789.
+Memory consumption went from 195.3 MB to 195.2 MB.
+Total: 4.145668 ms (FindLiveObjects: 0.320253 ms CreateObjectMapping: 0.273798 ms MarkObjects: 3.488812 ms  DeleteObjects: 0.061724 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AltEditorConfiguration.cs: 45d3720f60fe6b0f70eeee12c5e30d34 -> 7d69925f1ae41facd692f79510f186c5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EditorLogManager.cs: fe899566a29eb7240690fbeefb18463e -> fc0f2cd5ba2919cb7e45da90765d064c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AltTestRunner.cs: 045b2eca1162b8b4b70e7d185e1353da -> c77efe66b59f453f6ff779e3ef39e0c5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MyFirstTest.cs: 362e6a9e29360fde3ab2267e0f8d32ea -> e7d0f126d01581445922d0a360c9fac5
+  custom:scripting/monoscript/fileName/SceneManagerScript.cs: a5593c66f14542b5c627a17f5daa7c08 -> 8810cb43ae99cf7259aace7dcdc5391a
+  custom:scripting/monoscript/fileName/AltTesterEditorWindow.cs: c3833b345e75cae7aab7f7eeaab52265 -> fc9d31e143865378f6aebef3f180f222
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/TileBoardEditModeTests.cs: f35453614007f25a9704d5f3b68da91d -> 
+  custom:scripting/monoscript/fileName/AltTestRunListener.cs: de9c43dc1f5ef3b22ebbf177947c7749 -> 84f148e3dbb5a64393c9ddbd4ff7674f
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyScenes.cs: 98c869727e62481ffb34a15654950303 -> fb840480b84431185d55e9d13ca9122f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyTest.cs: 305057e55d2e81d91934139eaae294f4 -> acefaf17f0f6f542978f12e6d3e48855
+  custom:scripting/monoscript/fileName/AltBuilder.cs: 710d040020e242768316126778bfbace -> 3443f23595da078752cc4b1b05829454
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.870 seconds
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.694 seconds
+Domain Reload Profiling: 2565ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (535ms)
+		LoadAssemblies (520ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1695ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (487ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (40.2 KB). Loaded Objects now: 4793.
+Memory consumption went from 200.4 MB to 200.4 MB.
+Total: 3.826693 ms (FindLiveObjects: 0.284745 ms CreateObjectMapping: 0.240449 ms MarkObjects: 3.244801 ms  DeleteObjects: 0.055840 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AltEditorConfiguration.cs: 45d3720f60fe6b0f70eeee12c5e30d34 -> 7d69925f1ae41facd692f79510f186c5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EditorLogManager.cs: fe899566a29eb7240690fbeefb18463e -> fc0f2cd5ba2919cb7e45da90765d064c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AltTestRunner.cs: 045b2eca1162b8b4b70e7d185e1353da -> c77efe66b59f453f6ff779e3ef39e0c5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MyFirstTest.cs: 362e6a9e29360fde3ab2267e0f8d32ea -> e7d0f126d01581445922d0a360c9fac5
+  custom:scripting/monoscript/fileName/SceneManagerScript.cs: a5593c66f14542b5c627a17f5daa7c08 -> 8810cb43ae99cf7259aace7dcdc5391a
+  custom:scripting/monoscript/fileName/AltTesterEditorWindow.cs: c3833b345e75cae7aab7f7eeaab52265 -> fc9d31e143865378f6aebef3f180f222
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/TileBoardEditModeTests.cs: f35453614007f25a9704d5f3b68da91d -> 
+  custom:scripting/monoscript/fileName/AltTestRunListener.cs: de9c43dc1f5ef3b22ebbf177947c7749 -> 84f148e3dbb5a64393c9ddbd4ff7674f
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyScenes.cs: 98c869727e62481ffb34a15654950303 -> fb840480b84431185d55e9d13ca9122f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyTest.cs: 305057e55d2e81d91934139eaae294f4 -> acefaf17f0f6f542978f12e6d3e48855
+  custom:scripting/monoscript/fileName/AltBuilder.cs: 710d040020e242768316126778bfbace -> 3443f23595da078752cc4b1b05829454
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.738 seconds
+Refreshing native plugins compatible for Editor in 7.82 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.690 seconds
+Domain Reload Profiling: 2428ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (521ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1690ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (490ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (41.1 KB). Loaded Objects now: 4797.
+Memory consumption went from 205.3 MB to 205.2 MB.
+Total: 4.767422 ms (FindLiveObjects: 0.324682 ms CreateObjectMapping: 0.326600 ms MarkObjects: 4.012847 ms  DeleteObjects: 0.101624 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AltEditorConfiguration.cs: 45d3720f60fe6b0f70eeee12c5e30d34 -> 7d69925f1ae41facd692f79510f186c5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EditorLogManager.cs: fe899566a29eb7240690fbeefb18463e -> fc0f2cd5ba2919cb7e45da90765d064c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AltTestRunner.cs: 045b2eca1162b8b4b70e7d185e1353da -> c77efe66b59f453f6ff779e3ef39e0c5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MyFirstTest.cs: 362e6a9e29360fde3ab2267e0f8d32ea -> e7d0f126d01581445922d0a360c9fac5
+  custom:scripting/monoscript/fileName/SceneManagerScript.cs: a5593c66f14542b5c627a17f5daa7c08 -> 8810cb43ae99cf7259aace7dcdc5391a
+  custom:scripting/monoscript/fileName/AltTesterEditorWindow.cs: c3833b345e75cae7aab7f7eeaab52265 -> fc9d31e143865378f6aebef3f180f222
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/TileBoardEditModeTests.cs: f35453614007f25a9704d5f3b68da91d -> 
+  custom:scripting/monoscript/fileName/AltTestRunListener.cs: de9c43dc1f5ef3b22ebbf177947c7749 -> 84f148e3dbb5a64393c9ddbd4ff7674f
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyScenes.cs: 98c869727e62481ffb34a15654950303 -> fb840480b84431185d55e9d13ca9122f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyTest.cs: 305057e55d2e81d91934139eaae294f4 -> acefaf17f0f6f542978f12e6d3e48855
+  custom:scripting/monoscript/fileName/AltBuilder.cs: 710d040020e242768316126778bfbace -> 3443f23595da078752cc4b1b05829454
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.010 seconds
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.709 seconds
+Domain Reload Profiling: 2719ms
+	BeginReloadAssembly (311ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (110ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (613ms)
+		LoadAssemblies (556ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (132ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1709ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (478ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (40.1 KB). Loaded Objects now: 4801.
+Memory consumption went from 210.2 MB to 210.1 MB.
+Total: 5.093233 ms (FindLiveObjects: 0.374316 ms CreateObjectMapping: 0.602523 ms MarkObjects: 4.031921 ms  DeleteObjects: 0.083468 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AltEditorConfiguration.cs: 45d3720f60fe6b0f70eeee12c5e30d34 -> 7d69925f1ae41facd692f79510f186c5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EditorLogManager.cs: fe899566a29eb7240690fbeefb18463e -> fc0f2cd5ba2919cb7e45da90765d064c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AltTestRunner.cs: 045b2eca1162b8b4b70e7d185e1353da -> c77efe66b59f453f6ff779e3ef39e0c5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MyFirstTest.cs: 362e6a9e29360fde3ab2267e0f8d32ea -> e7d0f126d01581445922d0a360c9fac5
+  custom:scripting/monoscript/fileName/SceneManagerScript.cs: a5593c66f14542b5c627a17f5daa7c08 -> 8810cb43ae99cf7259aace7dcdc5391a
+  custom:scripting/monoscript/fileName/AltTesterEditorWindow.cs: c3833b345e75cae7aab7f7eeaab52265 -> fc9d31e143865378f6aebef3f180f222
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/TileBoardEditModeTests.cs: f35453614007f25a9704d5f3b68da91d -> 
+  custom:scripting/monoscript/fileName/AltTestRunListener.cs: de9c43dc1f5ef3b22ebbf177947c7749 -> 84f148e3dbb5a64393c9ddbd4ff7674f
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyScenes.cs: 98c869727e62481ffb34a15654950303 -> fb840480b84431185d55e9d13ca9122f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AltMyTest.cs: 305057e55d2e81d91934139eaae294f4 -> acefaf17f0f6f542978f12e6d3e48855
+  custom:scripting/monoscript/fileName/AltBuilder.cs: 710d040020e242768316126778bfbace -> 3443f23595da078752cc4b1b05829454
