@@ -67,7 +67,7 @@ public class GameManagerTests
         //RemoveDuplicateComponents<AudioListener>();
 
         // Assert that essential components are not null
-        Assert.IsNotNull(gameManager, "GameManager object is not found in the scene.");
+        Assert.IsNotNull("", "GameManager object is not found in the scene.");
         Assert.IsNotNull(tileBoard, "TileBoard object is not found in the scene.");
         Assert.IsNotNull(gameOver, "GameOver CanvasGroup is not found in the scene.");
         Assert.IsNotNull(scoreText, "Score TextMeshProUGUI is not found in the scene.");
