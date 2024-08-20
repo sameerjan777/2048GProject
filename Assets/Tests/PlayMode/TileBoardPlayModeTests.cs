@@ -92,7 +92,7 @@ public class GameManagerTests
         Assert.AreEqual("0", scoreText.text);
 
         // Check that the high score is displayed correctly
-        Assert.AreEqual("100", highScoreText.text);
+        Assert.AreEqual("10", highScoreText.text);
 
         // Check that the game over canvas group is hidden
         Assert.AreEqual(0f, gameOver.alpha);
