@@ -68,10 +68,10 @@ public class GameManagerTests
 
         // Assert that essential components are not null
         Assert.IsNotNull(gameManager, "GameManager object is not found in the scene.");
-        //Assert.IsNotNull(tileBoard, "TileBoard object is not found in the scene.");
-        //Assert.IsNotNull(gameOver, "GameOver CanvasGroup is not found in the scene.");
-        //Assert.IsNotNull(scoreText, "Score TextMeshProUGUI is not found in the scene.");
-        //Assert.IsNotNull(highScoreText, "HighScore TextMeshProUGUI is not found in the scene.");
+        Assert.IsNotNull(tileBoard, "TileBoard object is not found in the scene.");
+        Assert.IsNotNull(gameOver, "GameOver CanvasGroup is not found in the scene.");
+        Assert.IsNotNull(scoreText, "Score TextMeshProUGUI is not found in the scene.");
+        Assert.IsNotNull(highScoreText, "HighScore TextMeshProUGUI is not found in the scene.");
 
         // Start a new game for each test case
         gameManager.NewGame();
@@ -92,7 +92,7 @@ public class GameManagerTests
         Assert.AreEqual("0", scoreText.text);
 
         // Check that the high score is displayed correctly
-        Assert.AreEqual("10", highScoreText.text);
+        Assert.AreEqual("100", highScoreText.text);
 
         // Check that the game over canvas group is hidden
         Assert.AreEqual(0f, gameOver.alpha);
