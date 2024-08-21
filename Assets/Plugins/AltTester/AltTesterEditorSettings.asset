@@ -18,7 +18,7 @@ MonoBehaviour:
   XcrunPath: /usr/bin/xcrun
   MyTests:
   - _selected: 1
-    _testName: /Users/rodeorack/Documents/GitHub/2048Practice/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+    _testName: /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
     _testAssembly: Unity.VisualStudio.Editor
     _status: 0
     _isSuite: 1
@@ -32,7 +32,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: /Users/rodeorack/Documents/GitHub/2048Practice/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    _testName: /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll
     _testAssembly: Unity.Rider.Editor
     _status: 0
     _isSuite: 1
@@ -46,7 +46,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: /Users/rodeorack/Documents/GitHub/2048Practice/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+    _testName: /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
     _testAssembly: UnityEditor.TestRunner
     _status: 0
     _isSuite: 1
@@ -60,7 +60,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 0
-    _testName: /Users/rodeorack/Documents/GitHub/2048Practice/Library/ScriptAssemblies/AltTester.AltTesterUnitySDK.Editor.dll
+    _testName: /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/ScriptAssemblies/AltTester.AltTesterUnitySDK.Editor.dll
     _testAssembly: AltTester.AltTesterUnitySDK.Editor
     _status: 0
     _isSuite: 1
@@ -76,10 +76,10 @@ MonoBehaviour:
   - _selected: 0
     _testName: TileMovementAltUnityTest
     _testAssembly: AltTester.AltTesterUnitySDK.Editor
-    _status: 1
+    _status: 0
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestFixture
-    _parentName: /Users/rodeorack/Documents/GitHub/2048Practice/Library/ScriptAssemblies/AltTester.AltTesterUnitySDK.Editor.dll
+    _parentName: /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/ScriptAssemblies/AltTester.AltTesterUnitySDK.Editor.dll
     _testCaseCount: 5
     _foldOut: 0
     _testResultMessage: 
@@ -90,7 +90,7 @@ MonoBehaviour:
   - _selected: 0
     _testName: TileMovementAltUnityTest.TestingPlayBtn
     _testAssembly: AltTester.AltTesterUnitySDK.Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: TileMovementAltUnityTest
@@ -98,13 +98,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.6635451
+    _testDuration: 0
     path: 
     _testSelectedCount: 0
   - _selected: 0
     _testName: TileMovementAltUnityTest.TestMoveTilesDown
     _testAssembly: AltTester.AltTesterUnitySDK.Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: TileMovementAltUnityTest
@@ -112,13 +112,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.3457482
+    _testDuration: 0
     path: 
     _testSelectedCount: 0
   - _selected: 0
     _testName: TileMovementAltUnityTest.TestMoveTilesLeft
     _testAssembly: AltTester.AltTesterUnitySDK.Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: TileMovementAltUnityTest
@@ -126,13 +126,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.7800376
+    _testDuration: 0
     path: 
     _testSelectedCount: 0
   - _selected: 0
     _testName: TileMovementAltUnityTest.TestMoveTilesRight
     _testAssembly: AltTester.AltTesterUnitySDK.Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: TileMovementAltUnityTest
@@ -140,13 +140,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.2652149
+    _testDuration: 0
     path: 
     _testSelectedCount: 0
   - _selected: 0
     _testName: TileMovementAltUnityTest.TestMoveTilesUp
     _testAssembly: AltTester.AltTesterUnitySDK.Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: TileMovementAltUnityTest
@@ -154,11 +154,11 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.340756
+    _testDuration: 0
     path: 
     _testSelectedCount: 0
   - _selected: 0
-    _testName: /Users/rodeorack/Documents/GitHub/2048Practice/Library/ScriptAssemblies/Tests.dll
+    _testName: /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/ScriptAssemblies/Tests.dll
     _testAssembly: Tests
     _status: 0
     _isSuite: 1
@@ -174,10 +174,10 @@ MonoBehaviour:
   - _selected: 0
     _testName: GameManagerTests
     _testAssembly: Tests
-    _status: 1
+    _status: 0
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestFixture
-    _parentName: /Users/rodeorack/Documents/GitHub/2048Practice/Library/ScriptAssemblies/Tests.dll
+    _parentName: /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/ScriptAssemblies/Tests.dll
     _testCaseCount: 4
     _foldOut: 0
     _testResultMessage: 
@@ -188,7 +188,7 @@ MonoBehaviour:
   - _selected: 0
     _testName: GameManagerTests.GameOver_ShowsGameOverCanvasGroup
     _testAssembly: Tests
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: GameManagerTests
@@ -196,13 +196,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.0002973
+    _testDuration: 0
     path: 
     _testSelectedCount: 0
   - _selected: 0
     _testName: GameManagerTests.IncreaseScore_UpdatesScoreText
     _testAssembly: Tests
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: GameManagerTests
@@ -210,13 +210,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.0001177
+    _testDuration: 0
     path: 
     _testSelectedCount: 0
   - _selected: 0
     _testName: GameManagerTests.NewGame_ResetsScoreAndHighScoreText
     _testAssembly: Tests
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: GameManagerTests
@@ -224,13 +224,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.0001095
+    _testDuration: 0
     path: 
     _testSelectedCount: 0
   - _selected: 0
     _testName: GameManagerTests.SetInitialState_SetsCorrectValues
     _testAssembly: Tests
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: GameManagerTests
@@ -238,11 +238,11 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.000124
+    _testDuration: 0
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: /Users/rodeorack/Documents/GitHub/2048Practice/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+    _testName: /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
     _testAssembly: UnityEngine.TestRunner
     _status: 0
     _isSuite: 1
@@ -267,7 +267,7 @@ MonoBehaviour:
     _buildIndex: 0
   platform: 2
   StandaloneTarget: 2
-  RanInEditor: 1
+  RanInEditor: 0
   ScenePathDisplayed: 0
   ShowPopUp: 1
   BuildLocationPath: 
