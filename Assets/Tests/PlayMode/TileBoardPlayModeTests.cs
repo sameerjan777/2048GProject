@@ -119,7 +119,7 @@ public class GameManagerTests
     [UnityTest]
     public IEnumerator IncreaseScore_UpdatesScoreText()
     {
-        // Start a new game
+        // // Start a new game
         gameManager.NewGame();
 
         // Increase the score
