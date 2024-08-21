@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{C64E5F1C-73F5-55BA-6505-1EEAF44DFCE7}|">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AltTester.AltTesterUnitySDK PreferredExecutionTarget="1843e6dc-0de0-4f4e-a468-55c91e20e47e" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Tests/PlayMode/TileBoardPlayModeTests.cs">
+    <Files>
+      <File FileName="Assets/Tests/PlayMode/TileBoardPlayModeTests.cs" Line="166" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="2048GProject" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Tests" expanded="True">
+                <Node name="PlayMode" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
