@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0C9A85FF-AD3D-BC19-2A95-CEB32A740B95}</ProjectGuid>
+    <ProjectGuid>{483AA622-DACB-1398-60FA-451599492518}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Tests</AssemblyName>
@@ -55,7 +55,7 @@
     <UnityVersion>2022.3.28f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -942,7 +942,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SciptsAssembly.csproj">
-      <Project>{EBE92E46-03A6-9E31-6B99-3F201AABED69}</Project>
+      <Project>{3AE64AA2-4A2B-8D16-BDB7-C728F0EE8277}</Project>
       <Name>SciptsAssembly</Name>
     </ProjectReference>
   </ItemGroup>

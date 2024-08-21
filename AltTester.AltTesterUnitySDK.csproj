@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DA88A9E5-E4BB-BE11-2A6E-269FE94955F3}</ProjectGuid>
+    <ProjectGuid>{C64E5F1C-73F5-55BA-6505-1EEAF44DFCE7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AltTester.AltTesterUnitySDK</AssemblyName>
@@ -55,7 +55,7 @@
     <UnityVersion>2022.3.28f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -1061,11 +1061,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AltTester.AltTesterUnitySDK.Driver.csproj">
-      <Project>{B282BFE9-7337-F695-89F5-20B48F154FF0}</Project>
+      <Project>{A316A934-DB77-8179-0A32-10D317630BCF}</Project>
       <Name>AltTester.AltTesterUnitySDK.Driver</Name>
     </ProjectReference>
     <ProjectReference Include="SciptsAssembly.csproj">
-      <Project>{EBE92E46-03A6-9E31-6B99-3F201AABED69}</Project>
+      <Project>{3AE64AA2-4A2B-8D16-BDB7-C728F0EE8277}</Project>
       <Name>SciptsAssembly</Name>
     </ProjectReference>
   </ItemGroup>
