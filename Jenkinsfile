@@ -1,67 +1,83 @@
 pipeline {
     agent any
-
+    
     environment {
-        UNITY_VERSION = '2022.3.28f1' // Specify your Unity version
-        UNITY_PATH = "/Applications/Unity/Hub/Editor/${UNITY_VERSION}/Unity.app/Contents/MacOS/Unity"
-        PROJECT_PATH = "${WORKSPACE}" // Jenkins workspace path
-        BUILD_PATH = "${WORKSPACE}/Builds/Android"
-        LOG_FILE = "${WORKSPACE}/unity_build_log.txt"
-        APK_NAME = "2048Practice.apk"
+        UNITY_PATH = "/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/MacOS/Unity"
+        PROJECT_PATH = "/Users/rodeorack/.jenkins/workspace/${env.JOB_NAME}"
+        GIT_REPO = "https://github.com/sameerjan777/2048GProject.git"
+        GIT_BRANCH = "main"
+        EMAIL_RECIPIENT = "sameer.ar.jan@gmail.com"
     }
-
-    options {
-        timeout(time: 30, unit: 'MINUTES') // Adjust timeout as necessary
-    }
-
+    
     stages {
         stage('Checkout Code') {
             steps {
                 cleanWs()
-                checkout scm
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'githubCredentials1', url: "${GIT_REPO}"]])
             }
         }
-
-        stage('Build Unity Project (Android)') {
+        
+        stage('Run Unit Tests on Android') {
             steps {
                 script {
-                    // Create build directory if it doesn't exist
-                    sh "mkdir -p ${BUILD_PATH}"
-
-                    // Build the Android APK
-                    def result = sh(
-                        script: """
-                            ${UNITY_PATH} -batchmode -quit -projectPath ${PROJECT_PATH} -executeMethod BuildScript.BuildAndroid -buildTarget Android -logFile ${LOG_FILE}
-                        """,
-                        returnStatus: true
-                    )
-
+                    def resultFile = "${PROJECT_PATH}/TestResults_Android.txt"
+                    def logFile = "${PROJECT_PATH}/TestLog_Android.log"
+                    
+                    // Run Unity tests
+                    def result = sh(script: "${UNITY_PATH} -projectPath ${PROJECT_PATH} -runTests -testPlatform playmode -buildTarget Android -testResults ${resultFile} -logFile ${logFile} -batchmode -nographics -quit", returnStatus: true)
+                    
+                    // Fail the build if the result is non-zero
                     if (result != 0) {
-                        error "Unity build failed with exit code: ${result}"
+                        currentBuild.result = 'FAILURE'
+                        error('Unit tests failed on Android!')
                     }
-
-                    // Print contents of the build path after build
-                    sh "ls -la ${BUILD_PATH}"
+                    
+                    // Parse the test results for failures
+                    def testResults = readFile(resultFile)
+                    if (testResults.contains('<failure>') || testResults.contains('<error>')) {
+                        currentBuild.result = 'FAILURE'
+                        error('Unit tests failed on Android (XML check)!')
+                    }
                 }
             }
         }
-
-        stage('Verify Build Output') {
+        
+        stage('Run Unit Tests on iOS') {
             steps {
-                sh "ls -la ${BUILD_PATH}"
-            }
-        }
-
-        stage('Archive Build') {
-            steps {
-                archiveArtifacts artifacts: "${BUILD_PATH}/${APK_NAME}", allowEmptyArchive: false
+                script {
+                    def resultFile = "${PROJECT_PATH}/TestResults_iOS.xml"
+                    def logFile = "${PROJECT_PATH}/TestLog_iOS.log"
+                    
+                    // Run Unity tests
+                    def result = sh(script: "${UNITY_PATH} -projectPath ${PROJECT_PATH} -runTests -testPlatform playmode -buildTarget iOS -testResults ${resultFile} -logFile ${logFile} -batchmode -nographics -quit", returnStatus: true)
+                    
+                    // Fail the build if the result is non-zero
+                    if (result != 0) {
+                        currentBuild.result = 'FAILURE'
+                        error('Unit tests failed on iOS!')
+                    }
+                    
+                    // Parse the test results for failures
+                    def testResults = readFile(resultFile)
+                    if (testResults.contains('<failure>') || testResults.contains('<error>')) {
+                        currentBuild.result = 'FAILURE'
+                        error('Unit tests failed on iOS (XML check)!')
+                    }
+                }
             }
         }
     }
-
+    
     post {
-        always {
-            cleanWs()
+        failure {
+            mail to: "${EMAIL_RECIPIENT}",
+                 subject: "Jenkins Build Failed: ${env.JOB_NAME} - ${env.BUILD_NUMBER}",
+                 body: "The Jenkins build failed at stage: ${env.STAGE_NAME}. Please check the Jenkins console output for more details."
+        }
+        success {
+            mail to: "${EMAIL_RECIPIENT}",
+                 subject: "Jenkins Build Succeeded: ${env.JOB_NAME} - ${env.BUILD_NUMBER}",
+                 body: "The Jenkins build succeeded at stage: ${env.STAGE_NAME}. Please check the Jenkins console output for more details."
         }
     }
 }
