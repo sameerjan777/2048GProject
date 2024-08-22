@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Tests/PlayMode/TileBoardPlayModeTests.cs" />
+    <Compile Include="Assets/Tests/ConsoleLogManager.cs" />
     <Compile Include="Assets/Tests/Editor/TileBoardEditModeTests.cs" />
   </ItemGroup>
   <ItemGroup>

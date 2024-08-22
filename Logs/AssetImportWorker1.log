@@ -1,0 +1,499 @@
+Unity Editor version:    2022.3.28f1 (6bae5ce6b222)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.5 (Build 23F79)
+Darwin version:          23.5.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63239
+Successfully changed project path to: /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject
+/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704324554688] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 3734619305 [EditorId] 3734619305 [Version] 1048832 [Id] OSXEditor(0,Rodeos-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704324554688] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 3734619305 [EditorId] 3734619305 [Version] 1048832 [Id] OSXEditor(0,Rodeos-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 53.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.28f1 (6bae5ce6b222)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 555X (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 555X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56158
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.28f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.28f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.007075 seconds.
+- Loaded All Assemblies, in  0.595 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Unable to list connected devices. 
+* daemon not running; starting now at tcp:5037
+ADB server didn't ACK
+Full server startup log: /var/folders/tk/bhxplhl55nx90r0m0vz33lqr0000gn/T//adb.501.log
+Server had pid: 25164
+--- adb starting (pid 25164) ---
+adb I 08-21 15:30:11 25164 1234217 main.cpp:63] Android Debug Bridge version 1.0.41
+adb I 08-21 15:30:11 25164 1234217 main.cpp:63] Version 32.0.0-8006631
+adb I 08-21 15:30:11 25164 1234217 main.cpp:63] Installed as /Applications/Unity/Hub/Editor/2022.3.28f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 08-21 15:30:11 25164 1234217 main.cpp:63] 
+adb I 08-21 15:30:11 25163 1234218 main.cpp:63] Android Debug Bridge version 1.0.41
+adb I 08-21 15:30:11 25163 1234218 main.cpp:63] Version 32.0.0-8006631
+adb I 08-21 15:30:11 25163 1234218 main.cpp:63] Installed as /Applications/Unity/Hub/Editor/2022.3.28f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 08-21 15:30:11 25163 1234218 main.cpp:63] 
+adb E 08-21 15:30:11 25163 1234223 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 08-21 15:30:11 25164 1234224 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb I 08-21 15:30:11 25163 1234218 auth.cpp:417] adb_auth_init...
+adb I 08-21 15:30:11 25163 1234218 auth.cpp:152] loaded new key from '/Users/rodeorack/.android/adbkey' with fingerprint 4E77B282E9BDF3D723B8C10A5E21AE0B58E33456ADBEBE7CCEEC959A06DEA38D
+adb F 08-21 15:30:11 25164 1234217 main.cpp:167] could not install *smartsocket* listener: Address already in use
+
+* failed to start daemon
+adb: failed to check server version: cannot connect to daemon
+
+UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
+/Applications/Unity/Hub/Editor/2022.3.28f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
+
+Environment Variables:
+AMPLITUDE_API_KEY_REDBUCKET_DEV = 46b8b46515e7632fc42a504b72e05fd0
+DEBUG_ENV_VAR = UnityHub
+XPC_FLAGS = 0x0
+__CFBundleIdentifier = com.unity3d.unityhub
+AMPLITUDE_API_KEY_GREENBUCKET_DEV = 3ded2a762163603391a425f688f990c8
+AMPLITUDE_TOKEN_REDBUCKET_DEV = U4PSN7S7PuYVRODivvdcFwbu8R6IHGqa
+HOME = /Users/rodeorack
+AMPLITUDE_API_KEY_GREENBUCKET_PROD = c86fea37a9e1d3f0878b96e15b111c7c
+JAVA_TOOL_OPTIONS = -Dfile.encoding=UTF-8
+SENTRY_ACCESS_TOKEN = 3df78d9e53f8456aa90fbae044ce1a6261421ab1d0014674bc2e933477289017
+AMPLITUDE_DEPLOYMENT_KEY_RED_BUCKET_DEV = client-wbjHYrmeSR87GmWOE7LDpf7sUySOIKHm
+AMPLITUDE_TOKEN_GREENBUCKET_PROD = ZpUcbAdZXJYzNSoHsAWtL_s_JppwWid9
+AMPLITUDE_API_KEY = 28f3cae0b33b8b3702120c9ed1a935aa
+XPC_SERVICE_NAME = application.com.unity3d.unityhub.247927.248762
+AMPLITUDE_API_KEY_STAGING = 83ee04fccc67e4fcc7dd527c4c6f1e21
+WOOTRIC_CLIENT_TOKEN = NPS-aa8be4c3
+USER = rodeorack
+MallocNanoZone = 0
+LOGNAME = rodeorack
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+AMPLITUDE_API_KEY_YELLOWBUCKET_DEV = 48835b4d1f5e342aefe5f016324d296a
+PATH = /usr/bin:/bin:/usr/sbin:/sbin
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.vi2cdftc76/Listeners
+AMPLITUDE_API_KEY_YELLOWBUCKET_PROD = e03a9bbe92dc38a88cdb068d24c65b46
+AMPLITUDE_TOKEN_REDBUCKET_PROD = jTIgKs5KTZOjiqEEVdZFbgo_VRhABduL
+AMPLITUDE_TOKEN_YELLOWBUCKET_PROD = UYDQtPOw83dIfVy3SrW5oMyo7ru4PRkV
+COMMAND_MODE = unix2003
+TMPDIR = /var/folders/tk/bhxplhl55nx90r0m0vz33lqr0000gn/T/
+AMPLITUDE_TOKEN_GREENBUCKET_DEV = 84H2gMm_FJzhr3mBaX1lM1JVukmCM7d9
+AMPLITUDE_TOKEN_YELLOWBUCKET_DEV = wKi8foVigDditGFvmZewRFWsEbX9Y0YO
+SHELL = /bin/zsh
+AMPLITUDE_API_KEY_REDBUCKET_PROD = ca12bb461ea96f9bdf5df4ded7d52994
+AMPLITUDE_DEPLOYMENT_KEY_RED_BUCKET_PROD = client-zH8Y7OK1i331EKuG77C6UxN8ygcM6LzS
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+
+
+stderr[
+* daemon not running; starting now at tcp:5037
+ADB server didn't ACK
+Full server startup log: /var/folders/tk/bhxplhl55nx90r0m0vz33lqr0000gn/T//adb.501.log
+Server had pid: 25164
+--- adb starting (pid 25164) ---
+adb I 08-21 15:30:11 25164 1234217 main.cpp:63] Android Debug Bridge version 1.0.41
+adb I 08-21 15:30:11 25164 1234217 main.cpp:63] Version 32.0.0-8006631
+adb I 08-21 15:30:11 25164 1234217 main.cpp:63] Installed as /Applications/Unity/Hub/Editor/2022.3.28f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 08-21 15:30:11 25164 1234217 main.cpp:63] 
+adb I 08-21 15:30:11 25163 1234218 main.cpp:63] Android Debug Bridge version 1.0.41
+adb I 08-21 15:30:11 25163 1234218 main.cpp:63] Version 32.0.0-8006631
+adb I 08-21 15:30:11 25163 1234218 main.cpp:63] Installed as /Applications/Unity/Hub/Editor/2022.3.28f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 08-21 15:30:11 25163 1234218 main.cpp:63] 
+adb E 08-21 15:30:11 25163 1234223 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 08-21 15:30:11 25164 1234224 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb I 08-21 15:30:11 25163 1234218 auth.cpp:417] adb_auth_init...
+adb I 08-21 15:30:11 25163 1234218 auth.cpp:152] loaded new key from '/Users/rodeorack/.android/adbkey' with fingerprint 4E77B282E9BDF3D723B8C10A5E21AE0B58E33456ADBEBE7CCEEC959A06DEA38D
+adb F 08-21 15:30:11 25164 1234217 main.cpp:167] could not install *smartsocket* listener: Address already in use
+
+* failed to start daemon
+adb: failed to check server version: cannot connect to daemon
+]
+stdout[
+
+]
+exit code: 1
+  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <eab0d59bd73a4e308f0300c0ea577056>:0 
+  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0002d] in <eab0d59bd73a4e308f0300c0ea577056>:0 
+  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000a] in <eab0d59bd73a4e308f0300c0ea577056>:0 
+  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <eab0d59bd73a4e308f0300c0ea577056>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <eab0d59bd73a4e308f0300c0ea577056>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x002ae] in <eab0d59bd73a4e308f0300c0ea577056>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:ScanSync ()
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+UnityEditor.Android.TargetExtension:OnLoad ()
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules () (at /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs:147)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs Line: 147)
+
+Android Extension - Scanning For ADB Devices 870 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.758 seconds
+Domain Reload Profiling: 2354ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (257ms)
+		LoadAssemblies (194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (249ms)
+				TypeCache.ScanAssembly (228ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1661ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1165ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (403ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.185 seconds
+Refreshing native plugins compatible for Editor in 5.31 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.004 seconds
+Domain Reload Profiling: 2189ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (846ms)
+		LoadAssemblies (626ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (333ms)
+			TypeCache.Refresh (288ms)
+				TypeCache.ScanAssembly (258ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1004ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (676ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (454ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4291 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (60.3 KB). Loaded Objects now: 4747.
+Memory consumption went from 161.4 MB to 161.3 MB.
+Total: 5.510701 ms (FindLiveObjects: 0.379005 ms CreateObjectMapping: 0.374305 ms MarkObjects: 4.583167 ms  DeleteObjects: 0.169734 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 76779.787517 seconds.
+  path: Packages/com.unity.ide.visualstudio/package.json
+  artifactKey: Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/package.json using Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b236a188cb6d3b20ab5337520f5022a4') in 0.017431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Packages/com.unity.2d.tilemap/package.json
+  artifactKey: Guid(51797d68d3132bb419217a229e09fc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/package.json using Guid(51797d68d3132bb419217a229e09fc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a440708a656cb09e48b04397500d34') in 0.000896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Packages/com.unity.timeline/package.json
+  artifactKey: Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/package.json using Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a57b3b742cd57af294623ac9da8aaf') in 0.000859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6572.203390 seconds.
+  path: Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef
+  artifactKey: Guid(d528c8c98d269ca44a06cd9624a03945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef using Guid(d528c8c98d269ca44a06cd9624a03945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2ad02bae9a38a61c458b20d3b8a60f') in 0.052544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001620 seconds.
+  path: Packages/com.unity.2d.spriteshape/Tests/Editor/Unity.2D.SpriteShape.EditorTests.asmdef
+  artifactKey: Guid(03bfc083748b8452197dde3b8ea7f575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Tests/Editor/Unity.2D.SpriteShape.EditorTests.asmdef using Guid(03bfc083748b8452197dde3b8ea7f575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622440782564fd9931d0b106e4fe15e5') in 0.002140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef
+  artifactKey: Guid(b93f844d45cfcc44fa2b0eed5c9ec6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef using Guid(b93f844d45cfcc44fa2b0eed5c9ec6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1040d4a0cf6dad1b9dfcf7687229467a') in 0.004056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Packages/com.unity.2d.common/Editor/Unity.2D.Common.Editor.asmdef
+  artifactKey: Guid(bd2461be96e5f744bbe6bdbc5276eb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.common/Editor/Unity.2D.Common.Editor.asmdef using Guid(bd2461be96e5f744bbe6bdbc5276eb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fceaad3a1e07249af9f9b067f4d85528') in 0.002331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Unity.2D.Psdimporter.Editor.asmdef
+  artifactKey: Guid(bcb706ca0f6dd48449aa27a93faa899c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Unity.2D.Psdimporter.Editor.asmdef using Guid(bcb706ca0f6dd48449aa27a93faa899c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f8e588673623b2dd42e7f2c1dca4bd') in 0.006936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Packages/com.unity.burst/Unity.Burst.CodeGen/Unity.Burst.CodeGen.asmdef
+  artifactKey: Guid(9c6dda6c7922c624cb7ea9a7f1c7d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.burst/Unity.Burst.CodeGen/Unity.Burst.CodeGen.asmdef using Guid(9c6dda6c7922c624cb7ea9a7f1c7d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ea52dd09c03f7353c36f98d84fb22b') in 0.008701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef
+  artifactKey: Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef using Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300687cd8baef422c7a31af20946f31b') in 0.003637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef
+  artifactKey: Guid(cbdf09464b6b87745be748a67e5a21a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef using Guid(cbdf09464b6b87745be748a67e5a21a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8feb1cc41844b4383e366c620215ab20') in 0.001736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef
+  artifactKey: Guid(8ce1fc14411aade4b81c0e6dd86950be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef using Guid(8ce1fc14411aade4b81c0e6dd86950be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2168d5f2b419d57d0728c63cf7642e') in 0.001999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Packages/com.unity.2d.psdimporter/Tests/EditorTests/Unity.2D.Psdimporter.EditorTests.asmdef
+  artifactKey: Guid(782c623a3cbd6d940be3a3bcf0d4604b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Tests/EditorTests/Unity.2D.Psdimporter.EditorTests.asmdef using Guid(782c623a3cbd6d940be3a3bcf0d4604b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9937b12c0fee2bdbb07dec48e5e383b5') in 0.001200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef
+  artifactKey: Guid(7e93558c536f24149a3181fbe0a14523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef using Guid(7e93558c536f24149a3181fbe0a14523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473ba790cd01e2dc49ce868681d0bad4') in 0.000502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Packages/com.unity.2d.common/Path/Editor/Unity.2D.Common.Path.Editor.asmdef
+  artifactKey: Guid(24bbfa70f4a5840c3ab7da95e6835815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.common/Path/Editor/Unity.2D.Common.Path.Editor.asmdef using Guid(24bbfa70f4a5840c3ab7da95e6835815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4146d20522dcbf375c13d93711320cca') in 0.000448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Packages/com.unity.2d.animation/IK/Editor/Unity.2D.IK.Editor.asmdef
+  artifactKey: Guid(4237adb6ac177124b8f4a94835b7b4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/IK/Editor/Unity.2D.IK.Editor.asmdef using Guid(4237adb6ac177124b8f4a94835b7b4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1e95a3d286deb69293571119359801') in 0.000825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Packages/com.unity.burst/Tests/Editor/SeparateAssembly/SeparateAssembly.asmdef
+  artifactKey: Guid(3ce0cf2654ad3464aa58eb2e27f77f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.burst/Tests/Editor/SeparateAssembly/SeparateAssembly.asmdef using Guid(3ce0cf2654ad3464aa58eb2e27f77f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3353151c3a8006313bfac87ca184ee') in 0.002106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef
+  artifactKey: Guid(ba283300490772f4f8d1f69efcb7c60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef using Guid(ba283300490772f4f8d1f69efcb7c60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af2bd090bfa47e06d5e8aa2d4ad7cde') in 0.001708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Packages/com.unity.2d.common/Runtime/Unity.2D.Common.Runtime.asmdef
+  artifactKey: Guid(c3352a8bbbe14fb4ab52ae7bfff927ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.common/Runtime/Unity.2D.Common.Runtime.asmdef using Guid(c3352a8bbbe14fb4ab52ae7bfff927ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b575208e575e1432c9aaa224b55835b') in 0.000511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Packages/com.unity.2d.pixel-perfect/Runtime/Unity.2D.PixelPerfect.asmdef
+  artifactKey: Guid(476f7c6c6dfeed041b063446a926e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.pixel-perfect/Runtime/Unity.2D.PixelPerfect.asmdef using Guid(476f7c6c6dfeed041b063446a926e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0895689119ca59c400e2f8e8b41e79') in 0.003807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000689 seconds.
+  path: Packages/com.unity.2d.animation/IK/Runtime/Unity.2D.IK.Runtime.asmdef
+  artifactKey: Guid(88f14d179e7c91c4eac28302d69f32e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/IK/Runtime/Unity.2D.IK.Runtime.asmdef using Guid(88f14d179e7c91c4eac28302d69f32e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aaf355d7ef0d33eecb17565b58456ec') in 0.004475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Packages/com.unity.2d.aseprite/Editor/Unity.2D.Aseprite.Editor.asmdef
+  artifactKey: Guid(1c0efac71f61649eab4850fa3687d8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.aseprite/Editor/Unity.2D.Aseprite.Editor.asmdef using Guid(1c0efac71f61649eab4850fa3687d8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e9ffdf7d0c8be1dc1634d4f8d84a83') in 0.004524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Packages/com.unity.2d.sprite/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef
+  artifactKey: Guid(52648b72c7bef2040bf0cfa8dd0f74da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef using Guid(52648b72c7bef2040bf0cfa8dd0f74da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47b917ed648242db78d35892a8ab79b') in 0.004265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Packages/com.unity.collections/DocCodeSamples.Tests/DocCodeSamples.Tests.asmdef
+  artifactKey: Guid(d1fecb7e41996c7468b18df518b721d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collections/DocCodeSamples.Tests/DocCodeSamples.Tests.asmdef using Guid(d1fecb7e41996c7468b18df518b721d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718e70791f19f4e739414f5528698ad8') in 0.006933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
