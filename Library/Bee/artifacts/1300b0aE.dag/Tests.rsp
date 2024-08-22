@@ -345,6 +345,7 @@
 "Assets/Tests/ConsoleLogManager.cs"
 "Assets/Tests/Editor/TileBoardEditModeTests.cs"
 "Assets/Tests/PlayMode/TileBoardPlayModeTests.cs"
+"Assets/Tests/Singleton.cs"
 -langversion:9.0
 /deterministic
 /optimize+

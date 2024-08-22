@@ -1,29 +1,24 @@
 ﻿<Properties StartupConfiguration="{C64E5F1C-73F5-55BA-6505-1EEAF44DFCE7}|">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Tests/PlayMode/TileBoardPlayModeTests.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Tests/Singleton.cs">
     <Files>
-      <File FileName="Assets/Tests/PlayMode/TileBoardPlayModeTests.cs" Line="1" Column="1" />
+      <File FileName="Assets/Tests/PlayMode/TileBoardPlayModeTests.cs" Line="151" Column="38" />
+      <File FileName="Assets/Tests/Tests.asmdef" Line="1" Column="1" />
+      <File FileName="Assets/Tests/ConsoleLogManager.cs" Line="8" Column="41" />
+      <File FileName="Assets/Tests/Singleton.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="2048GProject">
-            <Node name="Assets" expanded="True">
-              <Node name="Tests" expanded="True">
-                <Node name="PlayMode" expanded="True">
-                  <Node name="TileBoardPlayModeTests.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="2048GProject" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.AltTester.AltTesterUnitySDK PreferredExecutionTarget="1942ea79-6f6d-41c5-9174-73b2dc433449" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AltTester.AltTesterUnitySDK PreferredExecutionTarget="43b47fb4-c228-4160-9c0b-26f9be9e8fa4" />
 </Properties>
