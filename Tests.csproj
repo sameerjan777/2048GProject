@@ -56,6 +56,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/PackageCache/com.unity.ext.nunit@2.0.5/net40/unity-custom/nunit.framework.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -63,6 +64,7 @@
     <Compile Include="Assets/Tests/Singleton.cs" />
     <Compile Include="Assets/Tests/PlayMode/TileBoardPlayModeTests.cs" />
     <Compile Include="Assets/Tests/ConsoleLogManager.cs" />
+    <Compile Include="Assets/Tests/TestExporter.cs" />
     <Compile Include="Assets/Tests/Editor/TileBoardEditModeTests.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -390,7 +392,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.ext.nunit@2.0.5/net40/unity-custom/nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">

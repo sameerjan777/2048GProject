@@ -16,7 +16,12 @@ public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
                     // Create a new instance if none exists
                     GameObject singletonObject = new GameObject(typeof(T).Name);
                     instance = singletonObject.AddComponent<T>();
-                    DontDestroyOnLoad(singletonObject);
+                }
+
+                // Make the instance persistent if ShouldPersist returns true
+                if (instance is Singleton<T> singletonInstance && singletonInstance.ShouldPersist())
+                {
+                    DontDestroyOnLoad(singletonInstance.gameObject);
                 }
             }
             return instance;
@@ -28,7 +33,7 @@ public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
         return false;
     }
 
-    private void Awake()
+    protected virtual void Awake()
     {
         if (Instance != this)
         {
@@ -40,5 +45,12 @@ public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
         }
     }
 
+    protected virtual void Start()
+    {
+        OnStart();
+    }
+
     protected virtual void OnAwake() { }
+
+    protected virtual void OnStart() { }
 }
