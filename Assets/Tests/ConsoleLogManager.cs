@@ -26,7 +26,7 @@ public class ConsoleLogManager : Singleton<ConsoleLogManager>
     {
         Application.logMessageReceived -= Handle_logMessageReceived;
     }
-    private void Init()
+    public void Init()
     {
         if (File.Exists(previousFileName))
         {
