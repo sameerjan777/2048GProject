@@ -643,5 +643,5 @@
 {"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Tests.dll","displayName":"Copying Tests.dll","index":614}
 {"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Tests.pdb","index":615,"changes":[{"key":"FileList","value":["Library/Bee/artifacts/1300b0aE.dag/post-processed/Tests.pdb"],"oldvalue":[],"dependency":"explicit"}]}
 {"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Tests.pdb","displayName":"Copying Tests.pdb","index":615}
-{"msg":"noderesult","processed_node_count":628,"number_of_nodes_ever_queued":631,"annotation":"CopyFiles Library/ScriptAssemblies/Tests.pdb","index":615,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Tests.pdb"}
-{"msg":"noderesult","processed_node_count":629,"number_of_nodes_ever_queued":631,"annotation":"CopyFiles Library/ScriptAssemblies/Tests.dll","index":614,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Tests.dll"}
+{"msg":"noderesult","processed_node_count":628,"number_of_nodes_ever_queued":631,"annotation":"CopyFiles Library/ScriptAssemblies/Tests.dll","index":614,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Tests.dll"}
+{"msg":"noderesult","processed_node_count":629,"number_of_nodes_ever_queued":631,"annotation":"CopyFiles Library/ScriptAssemblies/Tests.pdb","index":615,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Tests.pdb"}

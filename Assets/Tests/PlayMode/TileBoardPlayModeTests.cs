@@ -70,7 +70,7 @@ public class GameManagerTests
         Assert.AreEqual("0", scoreText.text);
 
         // Check that the high score is displayed correctly
-        bool isHighScoreTextCorrect = highScoreText.text == "10";
+        bool isHighScoreTextCorrect = highScoreText.text == "100";
         Debug.Log("HighScoreText after NewGame is '100': " + isHighScoreTextCorrect);
         Assert.AreEqual("100", highScoreText.text);
 
