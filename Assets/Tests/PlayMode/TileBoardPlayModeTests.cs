@@ -72,7 +72,7 @@ public class GameManagerTests
         // Check that the high score is displayed correctly
         bool isHighScoreTextCorrect = highScoreText.text == "10";
         Debug.Log("HighScoreText after NewGame is '100': " + isHighScoreTextCorrect);
-        Assert.AreEqual("10", highScoreText.text);
+        Assert.AreEqual("100", highScoreText.text);
 
         // Check that the game over canvas group is hidden
         bool isGameOverAlphaZero = Mathf.Approximately(gameOver.alpha, 0f);

@@ -363,7 +363,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
--analyzer:"Library/PackageCache/com.unity.ext.nunit@2.0.5/net40/unity-custom/nunit.framework.dll"
 "Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Brushes/GameObjectBrush/GameObjectBrush.cs"
 "Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Brushes/GroupBrush/GroupBrush.cs"
 "Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Brushes/LineBrush/LineBrush.cs"
