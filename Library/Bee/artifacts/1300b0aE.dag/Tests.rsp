@@ -347,6 +347,7 @@
 "Assets/Tests/PlayMode/TileBoardPlayModeTests.cs"
 "Assets/Tests/Singleton.cs"
 "Assets/Tests/TestExporter.cs"
+"Assets/Tests/Testrun.cs"
 -langversion:9.0
 /deterministic
 /optimize+
