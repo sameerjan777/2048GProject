@@ -1,26 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/merged_res/release/values-v28_values-v28.arsc.flat",
+            "outputFile": "/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/merged_res/release/values-v21_values-v21.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v28/values-v28.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "8",
-                        "endOffsets": "229"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/merged_res/release/values-v21_values-v21.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v21/values-v21.xml",
+                    "source": "/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -33,10 +17,25 @@
             ]
         },
         {
-            "outputFile": "/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/merged_res/release/values-v31_values-v31.arsc.flat",
+            "outputFile": "/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/merged_res/release/values-v30_values-v30.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v31/values-v31.xml",
+                    "source": "/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,129,201,266,325",
+                        "endColumns": "73,71,64,58,60",
+                        "endOffsets": "124,196,261,320,381"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/merged_res/release/values-v31_values-v31.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v31/values-v31.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -49,10 +48,10 @@
             ]
         },
         {
-            "outputFile": "/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/merged_res/release/values_values.arsc.flat",
+            "outputFile": "/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/merged_res/release/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values/values.xml",
+                    "source": "/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,11,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -71,7 +70,7 @@
                     }
                 },
                 {
-                    "source": "/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/strings.xml",
+                    "source": "/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "2,2",
@@ -90,16 +89,17 @@
             ]
         },
         {
-            "outputFile": "/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/merged_res/release/values-v30_values-v30.arsc.flat",
+            "outputFile": "/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/merged_res/release/values-v28_values-v28.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v30/values-v30.xml",
+                    "source": "/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release/values-v28/values-v28.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,129,201,266,325",
-                        "endColumns": "73,71,64,58,60",
-                        "endOffsets": "124,196,261,320,381"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "8",
+                        "endOffsets": "229"
                     }
                 }
             ]

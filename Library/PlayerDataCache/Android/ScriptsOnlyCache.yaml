@@ -1,5 +1,19 @@
 ScriptsOnlyBuild:
   usedScripts:
+    AltTester.AltTesterUnitySDK.Editor.dll:
+    - AltTester.AltTesterUnitySDK.Editor.AltEditorConfiguration
+    - AltTester.AltTesterUnitySDK.Editor.AltTesterEditorWindow
+    SciptsAssembly.dll:
+    - GameManager
+    - SceneManagerScript
+    - Tile
+    - TileBoard
+    - TileCell
+    - TileGrid
+    - TileRow
+    - TileState
+    Tests.dll:
+    - ConsoleLogManager
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
@@ -18,7 +32,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    - Packages.Rider.Editor.UnitTesting.SyncTestRunEventsHandler
     Unity.TextMeshPro:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
@@ -34,7 +47,6 @@ ScriptsOnlyBuild:
     - TestRunner.Callbacks.WindowResultUpdaterDataHolder
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
-    - UnityEditor.TestTools.TestRunner.RerunCallbackData
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     - UnityEditor.TestTools.TestRunner.TestRunnerWindow
@@ -45,6 +57,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -65,6 +78,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -77,8 +91,84 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: SciptsAssembly
+    fullTypeName: SceneManagerScript
+    methodName: LoadScenes
+  - assembly: SciptsAssembly
+    fullTypeName: GameManager
+    methodName: NewGame
+  - assembly: SciptsAssembly
+    fullTypeName: GameManager
+    methodName: NewGame
   sceneClasses:
+    Assets/Scenes/2048.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16668}
+    - Class: 114
+      Script: {instanceID: 18054}
+    - Class: 114
+      Script: {instanceID: 18332}
+    - Class: 114
+      Script: {instanceID: 18650}
+    - Class: 114
+      Script: {instanceID: 18704}
+    - Class: 114
+      Script: {instanceID: 19078}
+    - Class: 114
+      Script: {instanceID: 20246}
+    - Class: 114
+      Script: {instanceID: 20376}
+    - Class: 114
+      Script: {instanceID: 21388}
+    - Class: 114
+      Script: {instanceID: 22118}
+    - Class: 114
+      Script: {instanceID: 22340}
+    - Class: 114
+      Script: {instanceID: 22772}
+    - Class: 114
+      Script: {instanceID: 23330}
+    - Class: 114
+      Script: {instanceID: 23558}
+    - Class: 114
+      Script: {instanceID: 23684}
+    - Class: 114
+      Script: {instanceID: 24214}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
     Assets/Scenes/MainMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -115,15 +205,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21388}
     - Class: 114
-      Script: {instanceID: 22114}
+      Script: {instanceID: 21992}
     - Class: 114
-      Script: {instanceID: 22336}
+      Script: {instanceID: 22076}
     - Class: 114
-      Script: {instanceID: 22766}
+      Script: {instanceID: 22118}
     - Class: 114
-      Script: {instanceID: 23302}
+      Script: {instanceID: 22340}
     - Class: 114
-      Script: {instanceID: 25246}
+      Script: {instanceID: 22772}
+    - Class: 114
+      Script: {instanceID: 23308}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -389,6 +481,12 @@ ScriptsOnlyBuild:
     className: AltId
   - hash:
       serializedVersion: 2
+      Hash: d309286e78b5259bbd4964704fbdf016
+    assemblyName: SciptsAssembly
+    namespaceName: 
+    className: TileState
+  - hash:
+      serializedVersion: 2
       Hash: a1ac4c50e55874de16eee3db71aa9784
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -459,6 +557,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 75078b6267dd22324b10cd42c22fbd85
+    assemblyName: SciptsAssembly
+    namespaceName: 
+    className: TileRow
   - hash:
       serializedVersion: 2
       Hash: 5b8b7230ad968399f6726aa1269dcdcb
@@ -539,9 +643,9 @@ ScriptsOnlyBuild:
     className: AltPrefabDrag
   - hash:
       serializedVersion: 2
-      Hash: e965fe13ea8910ef110adcf3f044e08c
+      Hash: 37e6b52659f054b60d910fc7d027304a
     assemblyName: AltTester.AltTesterUnitySDK
-    namespaceName: 
+    namespaceName: AltTester.AltTesterUnitySDK.InputModule
     className: Input
   - hash:
       serializedVersion: 2
@@ -623,10 +727,22 @@ ScriptsOnlyBuild:
     className: DictionaryAsset
   - hash:
       serializedVersion: 2
+      Hash: 9da6ac7134413b02a9ac953f9c0f9cf6
+    assemblyName: SciptsAssembly
+    namespaceName: 
+    className: TileBoard
+  - hash:
+      serializedVersion: 2
       Hash: e7e95903ca66d58e1a7cbd71f824e16d
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: fa092819866925f97725f3740fadd5a1
+    assemblyName: SciptsAssembly
+    namespaceName: 
+    className: Tile
   - hash:
       serializedVersion: 2
       Hash: 9078325c2a6f6a2d9612ade897511860
@@ -821,6 +937,18 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: 09e7a357b8a5152a119c317be8c3df25
+    assemblyName: SciptsAssembly
+    namespaceName: 
+    className: SceneManagerScript
+  - hash:
+      serializedVersion: 2
+      Hash: 9a135809537200f67cc975ae5b35e6da
+    assemblyName: Tests
+    namespaceName: 
+    className: ConsoleLogManager
+  - hash:
+      serializedVersion: 2
       Hash: 540882762544409cc4530e60db00e951
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -989,6 +1117,12 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
+      Hash: c68e38bea7d1a1e4c42aac01162c7d90
+    assemblyName: SciptsAssembly
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: 6a0b5b415c00f783202fd1ae2d556cb2
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1005,6 +1139,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 119a790bb0b31815c585a8520919ce28
+    assemblyName: SciptsAssembly
+    namespaceName: 
+    className: TileGrid
   - hash:
       serializedVersion: 2
       Hash: 830c3b545f6e6ee60a4cebab90516f2c
@@ -1071,6 +1211,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 2fb29277110e3ef1b9c1c7206b989c8f
+    assemblyName: SciptsAssembly
+    namespaceName: 
+    className: TileCell
   - hash:
       serializedVersion: 2
       Hash: 9a174471d4db2c0c6d3ac47d2f818db1
@@ -1176,4 +1322,5 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
-  playerPath: /Users/rodeorack/Documents/GitHub/2048Practice/Builds/Android/build.apk
+  - Assets/Scenes/2048.unity
+  playerPath: /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Builds/Android/202409041301_2048_1.0-dev.apk

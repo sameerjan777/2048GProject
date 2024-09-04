@@ -197,3 +197,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 107404.742239 seconds.
+  path: Assets/Scripts/Editor/Sprites/16px-indicator-pass.png
+  artifactKey: Guid(af9795f0604ce466eb2867967a840c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Editor/Sprites/16px-indicator-pass.png using Guid(af9795f0604ce466eb2867967a840c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc9d569575726b1e5a2141336e3a2da') in 1.213221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

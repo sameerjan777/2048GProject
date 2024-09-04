@@ -7,166 +7,142 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="22"
-9-->/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
+9-->/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
 10        android:targetSdkVersion="34" />
-10-->/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
+10-->/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
 11
 12    <supports-screens
-12-->/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:3-163
+12-->/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:3-163
 13        android:anyDensity="true"
-13-->/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:135-160
+13-->/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:135-160
 14        android:largeScreens="true"
-14-->/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:78-105
+14-->/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:78-105
 15        android:normalScreens="true"
-15-->/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:49-77
+15-->/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:49-77
 16        android:smallScreens="true"
-16-->/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:21-48
+16-->/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:21-48
 17        android:xlargeScreens="true" />
-17-->/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:106-134
+17-->/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:106-134
 18
 19    <uses-permission android:name="android.permission.INTERNET" />
-19-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-67
-19-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-64
-20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-20-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
-20-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
-21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-21-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-81
-21-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-78
-22
-23    <uses-feature android:glEsVersion="0x00030000" />
-23-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:5-54
-23-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:19-51
-24    <uses-feature
-24-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-17:36
-25        android:name="android.hardware.vulkan.version"
-25-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-55
-26        android:required="false" />
-26-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-33
-27    <uses-feature
-27-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:5-20:36
-28        android:name="android.hardware.location.gps"
-28-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-53
-29        android:required="false" />
-29-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-33
-30    <uses-feature
-30-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:5-23:36
-31        android:name="android.hardware.location"
-31-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-49
-32        android:required="false" />
-32-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-33
-33    <uses-feature
-33-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:5-26:36
-34        android:name="android.hardware.sensor.accelerometer"
-34-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-61
-35        android:required="false" />
-35-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-33
-36    <uses-feature
-36-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:5-29:36
-37        android:name="android.hardware.touchscreen"
-37-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-52
-38        android:required="false" />
-38-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33
-39    <uses-feature
-39-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:5-32:36
-40        android:name="android.hardware.touchscreen.multitouch"
-40-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:9-63
-41        android:required="false" />
-41-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:32:9-33
-42    <uses-feature
-42-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:5-35:36
-43        android:name="android.hardware.touchscreen.multitouch.distinct"
-43-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-72
-44        android:required="false" />
-44-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:9-33
-45
-46    <application
-46-->/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:3-83
-47        android:extractNativeLibs="true"
-47-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:18-50
-48        android:icon="@mipmap/app_icon"
-48-->/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:49-80
-49        android:label="@string/app_name" >
-49-->/Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:16-48
-50        <meta-data
-50-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:9-40:33
-51            android:name="unity.splash-mode"
-51-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-45
-52            android:value="0" />
-52-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-30
-53        <meta-data
-53-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:9-43:36
-54            android:name="unity.splash-enable"
-54-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-47
-55            android:value="True" />
-55-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-33
-56        <meta-data
-56-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:44:9-46:36
-57            android:name="unity.launch-fullscreen"
-57-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-51
-58            android:value="True" />
-58-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-33
-59        <meta-data
-59-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:47:9-49:36
-60            android:name="unity.render-outside-safearea"
-60-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:48:13-57
-61            android:value="True" />
-61-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:49:13-33
-62        <meta-data
-62-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:50:9-52:50
-63            android:name="notch.config"
-63-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:51:13-40
-64            android:value="portrait|landscape" />
-64-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:52:13-47
-65        <meta-data
-65-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:53:9-55:36
-66            android:name="unity.auto-report-fully-drawn"
-66-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:54:13-57
-67            android:value="true" />
-67-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:55:13-33
-68
-69        <activity
-69-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:57:9-78:20
-70            android:name="com.unity3d.player.UnityPlayerActivity"
-70-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:58:13-66
-71            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-71-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:59:13-194
-72            android:exported="true"
-72-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:60:13-36
-73            android:hardwareAccelerated="false"
-73-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:61:13-48
-74            android:launchMode="singleTask"
-74-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:62:13-44
-75            android:resizeableActivity="false"
-75-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:63:13-47
-76            android:screenOrientation="fullUser"
-76-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:64:13-49
-77            android:theme="@style/UnityThemeSelector" >
-77-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:65:13-54
-78            <intent-filter>
-78-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:66:13-70:29
-79                <category android:name="android.intent.category.LAUNCHER" />
-79-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:67:17-77
-79-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:67:27-74
-80
-81                <action android:name="android.intent.action.MAIN" />
-81-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:69:17-69
-81-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:69:25-66
-82            </intent-filter>
-83
-84            <meta-data
-84-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:72:13-74:40
-85                android:name="unityplayer.UnityActivity"
-85-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:73:17-57
-86                android:value="true" />
-86-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:74:17-37
-87            <meta-data
-87-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:75:13-77:40
-88                android:name="notch_support"
-88-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:76:17-45
-89                android:value="true" />
-89-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/2048Practice/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:77:17-37
-90        </activity>
-91    </application>
-92
-93</manifest>
+19-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-67
+19-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-64
+20
+21    <uses-feature android:glEsVersion="0x00030000" />
+21-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-54
+21-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:19-51
+22    <uses-feature
+22-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-15:36
+23        android:name="android.hardware.vulkan.version"
+23-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-55
+24        android:required="false" />
+24-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-33
+25    <uses-feature
+25-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:5-18:36
+26        android:name="android.hardware.touchscreen"
+26-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-52
+27        android:required="false" />
+27-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-33
+28    <uses-feature
+28-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:5-21:36
+29        android:name="android.hardware.touchscreen.multitouch"
+29-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-63
+30        android:required="false" />
+30-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-33
+31    <uses-feature
+31-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:5-24:36
+32        android:name="android.hardware.touchscreen.multitouch.distinct"
+32-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-72
+33        android:required="false" />
+33-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:9-33
+34
+35    <application
+35-->/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:3-83
+36        android:extractNativeLibs="true"
+36-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:18-50
+37        android:icon="@mipmap/app_icon"
+37-->/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:49-80
+38        android:label="@string/app_name" >
+38-->/Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:16-48
+39        <meta-data
+39-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:9-29:33
+40            android:name="unity.splash-mode"
+40-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-45
+41            android:value="0" />
+41-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-30
+42        <meta-data
+42-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:9-32:36
+43            android:name="unity.splash-enable"
+43-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-47
+44            android:value="True" />
+44-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-33
+45        <meta-data
+45-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:9-35:36
+46            android:name="unity.launch-fullscreen"
+46-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:13-51
+47            android:value="True" />
+47-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-33
+48        <meta-data
+48-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:9-38:36
+49            android:name="unity.render-outside-safearea"
+49-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-57
+50            android:value="True" />
+50-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-33
+51        <meta-data
+51-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:9-41:50
+52            android:name="notch.config"
+52-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-40
+53            android:value="portrait|landscape" />
+53-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-47
+54        <meta-data
+54-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:9-44:36
+55            android:name="unity.auto-report-fully-drawn"
+55-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-57
+56            android:value="true" />
+56-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-33
+57
+58        <activity
+58-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:46:9-67:20
+59            android:name="com.unity3d.player.UnityPlayerActivity"
+59-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-66
+60            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+60-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:48:13-194
+61            android:exported="true"
+61-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:49:13-36
+62            android:hardwareAccelerated="false"
+62-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:50:13-48
+63            android:launchMode="singleTask"
+63-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:51:13-44
+64            android:resizeableActivity="false"
+64-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:52:13-47
+65            android:screenOrientation="fullUser"
+65-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:53:13-49
+66            android:theme="@style/UnityThemeSelector" >
+66-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:54:13-54
+67            <intent-filter>
+67-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:55:13-59:29
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:56:17-77
+68-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:56:27-74
+69
+70                <action android:name="android.intent.action.MAIN" />
+70-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:58:17-69
+70-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:58:25-66
+71            </intent-filter>
+72
+73            <meta-data
+73-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:61:13-63:40
+74                android:name="unityplayer.UnityActivity"
+74-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:62:17-57
+75                android:value="true" />
+75-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:63:17-37
+76            <meta-data
+76-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:64:13-66:40
+77                android:name="notch_support"
+77-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:65:17-45
+78                android:value="true" />
+78-->[:unityLibrary] /Users/rodeorack/Documents/GitHub/sameerjan777/2048GProject/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:66:17-37
+79        </activity>
+80    </application>
+81
+82</manifest>
