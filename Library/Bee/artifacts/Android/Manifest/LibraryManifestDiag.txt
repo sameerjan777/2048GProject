@@ -6,28 +6,8 @@ android.permission.INTERNET was added because:
 	System.Net.Sockets was present in:
 		NLog-FeaturesChecked.txt
 		altwebsocket-sharp-FeaturesChecked.txt
-Location related settings were added because:
-	UnityEngine.Input::get_location was present in:
-		AltTester.AltTesterUnitySDK-FeaturesChecked.txt
-android.hardware.sensor.accelerometer was added because:
-	UnityEngine.Input::get_acceleration was present in:
-		AltTester.AltTesterUnitySDK-FeaturesChecked.txt
-	UnityEngine.Input::GetAccelerationEvent was present in:
-		AltTester.AltTesterUnitySDK-FeaturesChecked.txt
-	UnityEngine.Input::get_accelerationEvents was present in:
-		AltTester.AltTesterUnitySDK-FeaturesChecked.txt
-	UnityEngine.Input::get_accelerationEventCount was present in:
-		AltTester.AltTesterUnitySDK-FeaturesChecked.txt
 android.hardware.touchscreen.multitouch, android.hardware.touchscreen.multitouch.distinct were enabled because:
-	UnityEngine.Input::get_touches was present in:
-		AltTester.AltTesterUnitySDK-FeaturesChecked.txt
 	UnityEngine.Input::GetTouch was present in:
 		UnityEngine.UI-FeaturesChecked.txt
-		AltTester.AltTesterUnitySDK-FeaturesChecked.txt
 	UnityEngine.Input::get_touchCount was present in:
 		UnityEngine.UI-FeaturesChecked.txt
-		AltTester.AltTesterUnitySDK-FeaturesChecked.txt
-	UnityEngine.Input::get_multiTouchEnabled was present in:
-		AltTester.AltTesterUnitySDK-FeaturesChecked.txt
-	UnityEngine.Input::set_multiTouchEnabled was present in:
-		AltTester.AltTesterUnitySDK-FeaturesChecked.txt
