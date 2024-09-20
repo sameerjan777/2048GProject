@@ -19,7 +19,7 @@ public class MyFirstTest
         {
             altDriver.LoadScene("MainMenu");
 
-            // Add your test logic here...
+            //// Add your test logic here...
 
             Assert.Pass("Test passed successfully");
         }
